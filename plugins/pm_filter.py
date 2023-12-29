@@ -1739,7 +1739,7 @@ async def auto_filter(client, msg, spoll=False):
             search = search.lower()
             find = search.split(" ")
             search = ""
-            removes = ["in","upload", "series", "full", "horror", "thriller", "mystery", "print", "file", "send", "me", "chahiye", "chiye", "movi", "movie", "bhejo", "dijiye", "jaldi"]
+            removes = ["in","upload", "series", "full", "horror", "thriller", "mystery", "print", "file", "send", "me", "chahiye", "chiye", "movi", "movie", "bhejo", "dijiye", "jaldi", "karo"]
             for x in find:
                 # if x == "in" or x == "upload" or x == "series" or x == "full" or x == "horror" or x == "thriller" or x == "mystery" or x == "print" or x == "subtitle" or x == "subtitles":
                 #     continue
@@ -1938,7 +1938,7 @@ async def advantage_spell_chok(client, msg):
     settings = await get_settings(msg.chat.id)
     find = mv_rqst.split(" ")
     query = ""
-    removes = ["in","upload", "series", "full", "horror", "thriller", "mystery", "print", "file", "send", "me", "chahiye", "chiye", "movi", "movie", "bhejo", "dijiye", "jaldi"]
+    removes = ["in","upload", "series", "full", "horror", "thriller", "mystery", "print", "file", "send", "me", "chahiye", "chiye", "movi", "movie", "bhejo", "dijiye", "jaldi", "karo"]
     for x in find:
         if x in removes:
             continue
