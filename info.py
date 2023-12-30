@@ -48,7 +48,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 JK_DEV_API = environ.get('JK_DEV_API', 'moneykamalo.com')
 JK_DEV_URL = environ.get('JK_DEV_URL', '8a04025f212aa7c29f79bb1c2ac28300e149a7e0')
-IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), True)
+IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
